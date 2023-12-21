@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rochester&display=swap">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="brownBox">
+            <h1>KATERYNA DANEVYCH</h1>
+            <nav>
+                <a href="#linktoportfolio">PORTFOLIO</a>
+                <a href="#linktoskills">ABOUT</a>
+                <a href="#linktocontact">CONTACT</a>
+            </nav>
+        </div>
+
+        <div class="bigBox">
+            <div class="infoBox">
+                <p><span id="greenFont">Enthusiastic software developer</span></br>
+                    with a <span id="biggerFont">strong educational background </span> in web development </br>
+                    and programming, specializing in <span id="brownFont">UI/UX design</span> </br>
+                    and <span id="brownFont">front-end development.</span></p>
+            </div>
+
+
+
+            <div class="myphoto"><img src="./images/myphoto.svg" alt="myphoto" width="200px"></div>
+        </div>
+  
+
+
+<button id="resumeButton">RESUME</button>
+
+<div id="resumeModal" class="modalResume">
+    <img src="./images/resume.svg" alt="Resume" class="modal-img" width="1000px">
+</div>
+
+
+
+        <div id="quote-container" onclick="changeQuote()">
+            <p id="quote"></p>  <!--QUOTES -->
+        </div>
+
+        <div class="greenLine"></div>
+
+        <div class="skills" id="linktoskills">
+            <img src="./images/skills.jpg" alt="skills" width="350px" class="skillsPhoto">
+            <div class="textSkills">
+                <h2>SKILLS</h2>
+                <p>Python</p>
+                <p>Web development</p>
+                <p>UI/UX design</p>
+                <p>Front-End development</p>
+                <p>Cloud computing</p>
+
+                <h2>CERTIFICATIONS</h2> 
+                <p>AWS Certified Cloud Practitioner</p>
+                <p>Certified Secure Computer User (C|SCU)</p>
+            </div>
+        </div>
+        <div class="greenLine"></div>
+
+        <div class="textSkills">
+            <div class="portfolio"> <h2 id="linktoportfolio">PORTFOLIO</h2> </div>
+            <div class="skills">
+                <div class="skills photoContainer">
+                    <div class="photoWrapper">
+
+                        <img src="./images/myWork1.png" alt="mywork1" width="300px">
+                        <img src="./images/here.svg" alt="here" width="300px">
+                        <img src="./images/will.svg" alt="will" width="300px">
+                        <img src="./images/be.svg" alt="be" width="300px">
+                        <img src="./images/my.svg" alt="my" width="300px">
+                        <img src="./images/portfolio.svg" alt="portfolio1" width="300px">
+                        <img src="./images/inthe.svg" alt="inthe" width="300px">
+                        <img src="./images/future.svg" alt="future" width="300px">
+                        <img src="./images/myWork1.png" alt="mywork1" width="300px">
+                    </div>
+                </div>
+        </div>
+        </div>
+
+
+        <!-- <div class="skills">
+            <img src="myWork1.png" alt="mywork1" width="300px">
+            <img src="myWork1.png" alt="mywork1" width="300px">
+            <img src="myWork1.png" alt="mywork1" width="300px">
+            <img src="myWork1.png" alt="mywork1" width="300px">
+            <img src="myWork1.png" alt="mywork1" width="300px">
+            <img src="myWork1.png" alt="mywork1" width="300px">
+      
+        </div> -->
+
+        <div class="greenLine2"></div>
+        <div class="skills">
+            
+            <div class="textSkills">
+                <h2 id="linktocontact">CONTACT</h2>
+                <a href="mailto:your-email@example.com" target="_blank"> <img src="./icons/mail.svg" alt="mail" width="30px"></a>  <p>EMAIL</p>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="./icons/LinkedIn.svg" alt="Linkedin" width="30px"></a><p>LINKEDIN</p>
+               <a href="https://github.com/" target="_blank"> <img src="./icons/Github.svg" alt="github" width="30px"></a><p>GITHUB</p>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./icons/Facebook.svg" alt="facebook" width="30px"></a><p>FACEBOOK</p>                
+
+               
+            </div>
+            <img src="./images/contact.jpg" alt="contact" width="350px" class="skillsPhoto">
+        </div>
+
+        <div class="greenLine2"></div>
+        <div class="brownBox">
+
+            <p class="footerText">2023 Kateryna Danevych. All rights reserved.</p>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
+
